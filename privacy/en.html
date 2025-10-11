@@ -47,14 +47,16 @@
     <h3>2) Categories of data</h3>
     <ul>
       <li><strong>Identifiers & device info</strong>: Advertising ID (AAID), IP address, OS/device model, app version, language/country, screen info</li>
+      <li><strong>Approximate location</strong> (inferred from IP): used for ad measurement and fraud prevention</li>
       <li><strong>Usage/events</strong>: gameplay records (stages, scores, progress), button taps, session/timestamps, basic logs</li>
-      <li><strong>Leaderboards</strong> (when linked): Google Play Games player ID, nickname, profile image, scores</li>
+      <li><strong>Leaderboards</strong> (when linked): Google Play Games player ID, nickname, profile image, scores
+        <br><small>※ The profile image is <strong>display-only</strong> for leaderboards and is not separately stored or shared.</small></li>
       <li><strong>Payments</strong> (coin purchases): SKU, purchase time, purchase token/receipt, status (refund/cancel, etc.)</li>
       <li><strong>Diagnostics</strong>: crash logs and minimal stability/performance data</li>
     </ul>
 
     <h3>3) How we collect</h3>
-    <p>Data is collected automatically via SDKs during app use, or within the scope you input/consent to.</p>
+    <p>Data is collected automatically via SDKs during app use, or within the scope you input/consent to. The app does <strong>not</strong> provide an in-app account creation feature; Google Play Games login is an <strong>optional link</strong>.</p>
 
     <h2>2. Third Parties / Processors</h2>
     <p>We use the following SDKs/services. Data may be processed/stored outside your country.</p>
@@ -86,6 +88,7 @@
       <li><strong>Personalized ads setting</strong>: if you refuse consent, only contextual (non-personalized) ads are shown. You can reset the Ad ID in Android settings.</li>
       <li><strong>Google Play Games link</strong>: login is required for leaderboards; most gameplay is available without login.</li>
       <li><strong>Purchase restore</strong>: coin purchases may be restorable on the same account, subject to product nature and store policies.</li>
+      <li><strong>Data deletion requests</strong>: we do not provide an in-app “delete data” button. You may request access/erasure/rectification via the contact email below.</li>
     </ul>
 
     <h2>6. International Transfers</h2>
